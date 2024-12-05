@@ -1,0 +1,148 @@
+
+.wapper {
+   background-color: #f5f5f5;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.home a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu-sidebar {
+    
+    
+}
+
+.menu {
+    text-align: left;
+    background-color: #222;
+    position: fixed;
+    top: 34px;
+    left: 0;
+    bottom: 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+.menu-list li:hover{
+    background-color: #0dcaf0;
+    cursor: pointer;
+}
+
+.menu-list li a:hover {
+    color: #fff;
+}
+
+
+.menu-item--manage {
+    position: relative;
+}
+
+.menu-item:hover .menu-item--manage-tour {
+    display: block;
+}
+
+.menu-item--manage-tour {
+    position: absolute;
+    list-style-type: none;
+    padding-left: 0;
+    left: 206px;
+    top: 40px;
+    width: 116px;
+    text-align: center;
+    display: none;
+}
+
+
+.header-menu {
+    padding:1em;
+	background:#fff;
+}
+
+.header-menu a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.header-menu a:hover {
+    color: #fff;
+}
+
+.logo-w3-agile {
+    text-align: center;
+	padding: 1em;
+	margin-right: 1%;
+}
+
+.four-agileits  {
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+}
+
+.four-agileits p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header-page a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.header-page i {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.book-form .inputBox input {
+    padding: 10px;
+    font-size: 1rem;
+    color: #222;
+    text-transform: none;
+    border: 1px solid #222;
+}
+
+.book-form .inputBox span {
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.btn-sub {
+    width: 50px;
+}
+
+.image {
+    height: 8rem;
+    overflow: hidden;
+}
+
+.content {
+    min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #eee;
+}
+
